@@ -1,7 +1,5 @@
 name: Run RSS Summary Bot
-name: Install dependencies
-run: |
-  pip install -r requirements.txt
+
 on:
   schedule:
     - cron: '0 */6 * * *'
